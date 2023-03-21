@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(167, 100, 255);
+  background: linear-gradient(
+    34deg,
+    rgba(167, 100, 255, 1) 10%,
+    rgba(127, 137, 232, 1) 35%,
+    rgba(142, 148, 255, 1) 52%,
+    rgba(116, 234, 255, 1) 73%
+  );
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 100px;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  height: 170vh;
+  width: 100vw;
+}
+
+h2 {
+  color: white;
+  font-size: 60px;
+  padding: 36px 24px;
+}
+
+form {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.35)
+  );
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.3);
+  padding: 30px 100px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.ważne-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 10%;
+}
+
+.boczne-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+input,
+button {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.25)
+  );
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 17px;
+  padding: 20px 24px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.pelc {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  color: white;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.ptrzycisk-login * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.rejestracja-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* .mozna{
+    display: block;
+
+} */
+
+#mozna {
+  height: 150px;
+}
+/* 
+.wyslizapytanie {
+  /*max-width: 80%;
+} */
